@@ -6,8 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/fg.jpg') no-repeat center center fixed;
-    /*background-color: #00bfa5;*/
+    /*background: url('../img/fg.jpg') no-repeat center center fixed;*/
+    background-color:#37474f;
     /*background: -webkit-linear-gradient( #259b24, #0d5302);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -146,7 +146,7 @@ footer p {
        font-size: 4em;
        font-weight: 600;
        line-height: normal;
-       color: #fff;
+       color: #eeeeee;
        letter-spacing: 3px;
     }
 
@@ -169,7 +169,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #eeeeee;
     }
 
     .navbar {
