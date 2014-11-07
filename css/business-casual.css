@@ -284,6 +284,7 @@ footer p {
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid #d0d0d0;
+    border-radius: 10px;
     /*border-top: 1px solid #d0d0d0;*/
 }
 
