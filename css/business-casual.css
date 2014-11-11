@@ -299,6 +299,12 @@ footer p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.imgstyl
+{
+    box-shadow: 4px 4px 8px #333;
+    border-radius:10px;
+}
 /*.fix
 {
     position: fixed;
