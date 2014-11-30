@@ -6,13 +6,16 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*background: url('../img/fg.jpg') no-repeat center center fixed;*/
-    background-color:#37474f;
+    background: url('../img/fg1.jpg') no-repeat center center fixed;
+    filter: blur(5px);
+     /*background-color: rgba(223,223,223,0.1);*/
+    /*background-color:#ddd;*/
     /*background: -webkit-linear-gradient( #259b24, #0d5302);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
 h1,
@@ -32,7 +35,7 @@ p {
     font-size: 14px;
     line-height: 1.6;
     color: #000;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 hr {
@@ -90,7 +93,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,1);
+    background: rgba(255,255,255,0.3);
 }
     
 .boxy {
@@ -120,16 +123,17 @@ hr {
 }
 
 footer {
-    box-shadow: 0px -1px 13px #A09F9F;
+    position: relative;
     bottom: 0;
-    background: #fff;
-    position: fixed;
+    background: #333;
     width: 100%;
-    background: #fff;
-    background: rgba(255,255,255,1);
+ 
 }
 
 footer p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: cadetblue;
     margin: 0;
     padding: 10px 0;
 }
@@ -140,13 +144,13 @@ footer p {
        margin: 0;
        padding: 30px 0 10px;
        text-align: center;
-       text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+       /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
        text-transform: uppercase;
        font-size: 42px;
        font-weight: 600;
        line-height: normal;
-       color: #eeeeee;
+       color: #000;
        letter-spacing: 3px;
     }
 
@@ -164,12 +168,12 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
         text-transform: uppercase;
         font-size: 11px;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #eeeeee;
+        color: #000;
     }
 
     .navbar {
@@ -177,17 +181,28 @@ footer p {
     }
 
     .navbar-header {
-        display: none;
+        /*display: none;*/
     }
 
+    .navstyl
+    {  
+        margin: 4px;
+        font-size: 24px;
+        color: cyan;
+    }
+    
     .navbar {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        z-index: 100;
         min-height: 0;
     }
 
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,1);
+        background:#333;
     }
 
     .nav>li>a {
@@ -217,12 +232,12 @@ footer p {
     }
 }
 
-
 .hoverit:hover
 {
-    background: #eeeeee;
+    background-color: cadetblue;
     
 }
+
 
 .subclass
 {
@@ -241,7 +256,7 @@ footer p {
 }
 .subcontainer
 {
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
     overflow: visible;
 }
 
@@ -259,7 +274,7 @@ footer p {
     text-align:center;
     border-style:solid solid;
     border-width: 1px;
-    border-color:#ddd;
+    border-color:#333;
     
 }
 
@@ -271,14 +286,17 @@ footer p {
 
 .vac
 {
-    margin: 15px;
+    margin: 18px;
+    color: #333;
+    font-weight: 700;
 }
 
 .vac1
 {
     margin: 0 50px;
     padding: 15px;
-    background-color: #eeeeee;
+    background-color: #333;
+    color: cadetblue;
 }
 
 .padlr1
@@ -304,15 +322,84 @@ footer p {
 
 .imgstyl
 {
+   
     box-shadow: 4px 4px 8px #333;
     border-radius:10px;
 }
-/*.fix
+
+.topnav
 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
     position: fixed;
-top: 0;
-overflow: visible;
-width: 100%;
-z-index: 5;
-box-shadow: 0px 1px 5px #888888;
-}*/
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.posiname
+{
+    font-weight: 800;
+    margin: 20px;
+}
+
+.posiname1
+{
+    font-weight: 800;
+    margin:50px 20px 20px 20px;
+}
+
+.rcnt
+{
+    font-weight: 600;
+    margin: 20px 10px 10px 10px;
+}
+
+.content
+{
+    margin-top: 0px;
+    z-index: 50;
+    position: relative;
+    background-color:cadetblue;
+}
+
+.cont
+{
+    z-index: 50;
+    position: relative;
+    background-color:cadetblue;
+}
+
+.centro
+{
+    z-index: 50;
+    position: relative;
+    background-color:black;
+    opacity: 0.7;
+}
+
+.slider
+{
+    padding:0 0;
+    position:relative;
+    top: 0px;
+    width: 100%;
+}
+
+.topcont
+{
+    width: 100%;
+    height: 620px;
+    z-index: 50;
+    position: relative;
+    background: rgba(95, 158, 160, 0.6);
+    padding: 20px;
+}
+
+.tcstyl
+{
+    font-weight: 900;
+    font-size: 56px;
+    color: #ddd;
+}

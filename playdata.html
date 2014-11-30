@@ -12,7 +12,7 @@
     <title>About - SVSC-Somaiya Vidyavihar Sports Center</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
@@ -34,273 +34,261 @@
 
 <body>
 
-    <div class="brand">Somaiya Vidyavihar Sports Center</div>
-    <div class="address-bar">Vidyanagar | Vidyavihar(E) | Mumbai | Maharashtra 400077</div>
+   <!-- Navigation -->
+                 <nav class="navbar navbar-default fix" role="navigation" style="margin-bottom: 0px;">
+                    <div class="container" style="margin: 0;width: 100%;">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                            <a class="navbar-brand" style=" margin: 4px;font-size: 24px;color:cadetblue;" href="index.html">SVSC</a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default fix" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Somaiya VSC</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="team.html" class="dropdown-toggle" data-toggle="dropdown">Team</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="team.html">Squad</a></li>
-                            <li><a href="playdata.html">Players Database</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="fixtures.html" class="dropdown-toggle" data-toggle="dropdown">Result</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="fixtures.html">Our Scores</a></li>
-                            <li><a href="pntable.html">Points Table</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="container">
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                               <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                               <li class="dropdown">
+                            <a href="team.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >Team</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="team.html">Squad</a></li>
+                                        <li><a href="playdata.html">Players Database</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                       <a href="fixtures.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Result</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="fixtures.html">Our Scores</a></li>
+                                        <li><a href="pntable.html">Points Table</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                     </div>
+                    <!-- /.container -->
+                   </nav>
+    
+    <div class="container" style="margin-top:56px">
         <div class="subcontainer">
-           
-            <div class="panel panel-default">
-             <div class="panel-heading" style="background-color:#eeeeee;">
-             <h3 class="panel-title" style="margin: 7px;font-size: 22px;">PLAYERS DATABASE</h3>
-             </div>
-             <div class="panel-body">
-                
-            <div class="col-xs-12"> 
-            <div class="table-responsive">    
-            <table class="table table-bordered" style="letter-spacing: 2px;">
-            
-            <thead>
-             <tr>
-                <th style="text-align:center">#</th>
-                <th style="text-align:center">Name</th>
-                <th style="text-align:center">Joined</th>
-                <th style="text-align:center">Left</th>
-                <th style="text-align:center">Start</th>
-                <th style="text-align:center">Subs</th>
-                <th style="text-align:center">Appearances</th>
-                <th style="text-align:center">Goal Scored</th>
-             </tr>
-            </thead>
-            
-            <tbody style="text-align:center">
-                <tr class="hoverit">
-                <td>1</td>
-                <td>ABHAY AMIN</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>5</td>
-                <td>1</td>
-                <td>6</td>
-                <td>8</td>
-                </tr>
-                <tr class="hoverit">
-                <td>2</td>
-                <td>RISHIKESH SHINDE</td>
-                <td>2014</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>6</td>
-                <td>1</td>
-                </tr>
-                <tr class="hoverit">
-                <td>3</td>
-                <td>AUSTIN MENDONSA</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>3</td>
-                <td>0</td>
-                <td>3</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>4</td>
-                <td>HIMESH MISTRY</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                </tr>
-                <tr class="hoverit">
-                <td>5</td>
-                <td>SIDDHESH BHAGWAT</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>6</td>
-                <td>2</td>
-                </tr>
-                <tr class="hoverit">
-                <td>6</td>
-                <td>PRANAV NAIK</td>
-                <td>2014</td>
-                <td>-</td>
-                <td>5</td>
-                <td>0</td>
-                <td>5</td>
-                <td>1</td>
-                </tr>
-                <tr class="hoverit">
-                <td>7</td>
-                <td>NICKSON SOMAN</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>4</td>
-                <td>0</td>
-                <td>4</td>
-                <td>3</td>
-                </tr>
-                <tr class="hoverit">
-                <td>8</td>
-                <td>SIDDHARTH REGE</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>9</td>
-                <td>SAGAR CHAVAN</td>
-                <td>2014</td>
-                <td>-</td>
-                <td>0</td>
-                <td>2</td>
-                <td>2</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>10</td>
-                <td>DEEP BHANUSHALI</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>11</td>
-                <td>HEMANT MISTRY</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>6</td>
-                <td>2</td>
-                </tr>
-                <tr class="hoverit">
-                <td>12</td>
-                <td>AJHINKYA KADAM</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>5</td>
-                <td>1</td>
-                <td>6</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>13</td>
-                <td>KARTHIK KAMATH</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>4</td>
-                <td>0</td>
-                <td>4</td>
-                <td>1</td>
-                </tr>
-                <tr class="hoverit">
-                <td>14</td>
-                <td>SANKET MAYEKAR</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>6</td>
-                <td>2</td>
-                </tr>
-                <tr class="hoverit">
-                <td>15</td>
-                <td>AISHWARY BERLEKAR</td>
-                <td>2014</td>
-                <td>-</td>
-                <td>6</td>
-                <td>0</td>
-                <td>6</td>
-                <td>2</td>
-                </tr>
-                <tr class="hoverit">
-                <td>16</td>
-                <td>ADARSH ANCHAN</td>
-                <td>2014</td>
-                <td>-</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>17</td>
-                <td>RUSHIE MULAY</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>5</td>
-                <td>0</td>
-                <td>5</td>
-                <td>0</td>
-                </tr>
-                <tr class="hoverit">
-                <td>18</td>
-                <td>OMKAR KULKARNI</td>
-                <td>2013</td>
-                <td>-</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>0</td>
-                </tr>
-                 
-            </tbody>
-            </table>
-            </div>
-         </div>
-         </div>        
-         </div>
-            
-        </div>
+            <div class="box">
+                <div class="row">
+                   <h2 class="posiname">players database</h2>
+                </div>
+                <div class="row" style="margin:0 10px"> 
+                    <div class="table-responsive">    
+                    <table class="table table-bordered" style="letter-spacing: 2px;">
+
+                    <thead>
+                     <tr>
+                        <th style="text-align:center">#</th>
+                        <th style="text-align:center">Name</th>
+                        <th style="text-align:center">Joined</th>
+                        <th style="text-align:center">Left</th>
+                        <th style="text-align:center">Start</th>
+                        <th style="text-align:center">Subs</th>
+                        <th style="text-align:center">Appearances</th>
+                        <th style="text-align:center">Goal Scored</th>
+                     </tr>
+                    </thead>
+
+                    <tbody style="text-align:center">
+                        <tr class="hoverit">
+                        <td>1</td>
+                        <td>ABHAY AMIN</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>6</td>
+                        <td>8</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>2</td>
+                        <td>RISHIKESH SHINDE</td>
+                        <td>2014</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>1</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>3</td>
+                        <td>AUSTIN MENDONSA</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>4</td>
+                        <td>HIMESH MISTRY</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>5</td>
+                        <td>SIDDHESH BHAGWAT</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>2</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>6</td>
+                        <td>PRANAV NAIK</td>
+                        <td>2014</td>
+                        <td>-</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>1</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>7</td>
+                        <td>NICKSON SOMAN</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>3</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>8</td>
+                        <td>SIDDHARTH REGE</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>9</td>
+                        <td>SAGAR CHAVAN</td>
+                        <td>2014</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>10</td>
+                        <td>DEEP BHANUSHALI</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>11</td>
+                        <td>HEMANT MISTRY</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>2</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>12</td>
+                        <td>AJHINKYA KADAM</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>6</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>13</td>
+                        <td>KARTHIK KAMATH</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>1</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>14</td>
+                        <td>SANKET MAYEKAR</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>2</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>15</td>
+                        <td>AISHWARY BERLEKAR</td>
+                        <td>2014</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>2</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>16</td>
+                        <td>ADARSH ANCHAN</td>
+                        <td>2014</td>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>17</td>
+                        <td>RUSHIE MULAY</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>0</td>
+                        </tr>
+                        <tr class="hoverit">
+                        <td>18</td>
+                        <td>OMKAR KULKARNI</td>
+                        <td>2013</td>
+                        <td>-</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                        </tr>
+
+                    </tbody>
+                    </table>
+                    </div>
+               </div>
+          </div>        
+       </div>
     </div>
+            
     <!-- /.container -->
 
     <footer>
@@ -318,7 +306,7 @@
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     </body>
 </html>
