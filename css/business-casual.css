@@ -5,17 +5,16 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: url('../img/fg1.jpg') no-repeat center center fixed;
-    filter: blur(5px);
-     /*background-color: rgba(223,223,223,0.1);*/
+    /*    filter: blur(5px);*/
+    /*background-color: rgba(223,223,223,0.1);*/
     /*background-color:#ddd;*/
     /*background: -webkit-linear-gradient( #259b24, #0d5302);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
 }
 
 h1,
@@ -25,10 +24,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
-    
 }
 
 p {
@@ -53,8 +51,8 @@ hr {
     font-weight: 900;
     letter-spacing: 3px;
     position: absolute;
-    margin:auto;
-   /* margin-right: 50px;*/
+    margin: auto;
+    /* margin-right: 50px;*/
 }
 
 .navbar-nav {
@@ -93,15 +91,14 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
-    
+
 .boxy {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0);
-    
+    background: rgba(255, 255, 255, 0);
 }
 
 .intro-text {
@@ -127,7 +124,6 @@ footer {
     bottom: 0;
     background: #333;
     width: 100%;
- 
 }
 
 footer p {
@@ -140,29 +136,26 @@ footer p {
 
 @media screen and (min-width:768px) {
     .brand {
-       display: inherit;
-       margin: 0;
-       padding: 30px 0 10px;
-       text-align: center;
-       /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
-       font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-       text-transform: uppercase;
-       font-size: 42px;
-       font-weight: 600;
-       line-height: normal;
-       color: #000;
-       letter-spacing: 3px;
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: normal;
+        color: #000;
+        letter-spacing: 3px;
     }
-
     .top-divider {
         margin-top: 0;
     }
-
     .img-left {
         float: left;
         margin-right: 25px;
     }
-
     .address-bar {
         display: inherit;
         margin: 0;
@@ -175,22 +168,17 @@ footer p {
         letter-spacing: 3px;
         color: #000;
     }
-
     .navbar {
         border-radius: 0;
     }
-
     .navbar-header {
         /*display: none;*/
     }
-
-    .navstyl
-    {  
+    .navstyl {
         margin: 4px;
         font-size: 24px;
         color: cyan;
     }
-    
     .navbar {
         position: relative;
         top: 0px;
@@ -198,23 +186,19 @@ footer p {
         z-index: 100;
         min-height: 0;
     }
-
     .navbar-default {
         border: none;
         background: #fff;
-        background:#333;
+        background: #333;
     }
-
     .nav>li>a {
         padding: 20px;
         padding-right: 40px;
         padding-left: 40px;
     }
-
     .navbar-nav>li>a {
         line-height: normal;
     }
-
     .navbar-nav {
         display: table;
         float: none;
@@ -232,75 +216,61 @@ footer p {
     }
 }
 
-.hoverit:hover
-{
+.hoverit:hover {
     background-color: cadetblue;
-    
 }
 
-
-.subclass
-{
+.subclass {
     font-size: 1.5em;
     font-weight: 700;
     margin-top: 10px;
     letter-spacing: 3px;
 }
 
-.subclass1
-{
+.subclass1 {
     /*font-size: 2.5em;*/
     font-weight: 700;
     letter-spacing: 2px;
-    
 }
-.subcontainer
-{
+
+.subcontainer {
     /*margin-bottom: 35px;*/
     overflow: visible;
 }
 
-.nmtch
-{
-    text-align:center;
-    border-style:none solid solid;
+.nmtch {
+    text-align: center;
+    border-style: none solid solid;
     border-width: 1px;
-    border-color:#ddd;
-    
+    border-color: #ddd;
 }
 
-.nmtch1
-{
-    text-align:center;
-    border-style:solid solid;
+.nmtch1 {
+    text-align: center;
+    border-style: solid solid;
     border-width: 1px;
-    border-color:#333;
-    
+    border-color: #333;
 }
 
-.nxt
-{
+.nxt {
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-.vac
-{
+.vac {
     margin: 18px;
     color: #333;
     font-weight: 700;
 }
 
-.vac1
-{
+.vac1 {
     margin: 0 50px;
     padding: 15px;
     background-color: #333;
     color: cadetblue;
 }
 
-.padlr1
-{
+.padlr1 {
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid #d0d0d0;
@@ -308,27 +278,22 @@ footer p {
     /*border-top: 1px solid #d0d0d0;*/
 }
 
-.padlr
-{
+.padlr {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.padtb
-{
+.padtb {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.imgstyl
-{
-   
+.imgstyl {
     box-shadow: 4px 4px 8px #333;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
-.topnav
-{
+.topnav {
     margin: 0px;
     padding: 0px;
     background-color: #000;
@@ -338,57 +303,49 @@ footer p {
     z-index: 100;
 }
 
-.posiname
-{
+.posiname {
     font-weight: 800;
     margin: 20px;
 }
 
-.posiname1
-{
+.posiname1 {
     font-weight: 800;
-    margin:50px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
 }
 
-.rcnt
-{
+.rcnt {
     font-weight: 600;
     margin: 20px 10px 10px 10px;
 }
 
-.content
-{
+.content {
     margin-top: 0px;
     z-index: 50;
     position: relative;
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
 
-.cont
-{
+.cont {
     z-index: 50;
     position: relative;
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
 
-.centro
-{
+.centro {
     z-index: 50;
     position: relative;
-    background-color:black;
+    background-color: black;
     opacity: 0.7;
 }
 
-.slider
-{
-    padding:0 0;
-    position:relative;
+.slider {
+    padding: 0 0;
+    position: relative;
     top: 0px;
     width: 100%;
 }
 
-.topcont
-{
+.topcont {
     width: 100%;
     height: 620px;
     z-index: 50;
@@ -397,8 +354,7 @@ footer p {
     padding: 20px;
 }
 
-.tcstyl
-{
+.tcstyl {
     font-weight: 900;
     font-size: 56px;
     color: #ddd;
